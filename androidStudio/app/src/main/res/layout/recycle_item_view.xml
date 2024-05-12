@@ -1,0 +1,74 @@
+<!-- recycler_item_view.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewMaMayTinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mã máy tính "/>
+
+        <TextView
+            android:id="@+id/textViewTenMayTinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên máy tính"/>
+        <TextView
+            android:id="@+id/textViewLoaiMay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Loại máy tính"/>
+
+        <TextView
+            android:id="@+id/textViewHangSX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hãng sản xuất"/>
+
+        <TextView
+            android:id="@+id/textViewSoLuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số lượng"/>
+
+        <TextView
+            android:id="@+id/textViewDonGia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Đơn giá"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonEdit"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btnedit"
+            android:text="SỬA" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/buttonDelete"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btndel"
+            android:text="XÓA" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
